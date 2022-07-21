@@ -22,7 +22,6 @@ with open("urls.txt") as f: #change url in text file
     for url in f:
         driver.get(url)
         
-
 driver.find_element_by_css_selector('yt-icon.style-scope.ytd-toggle-button-renderer').click()
 time.sleep(3)
 driver.find_element_by_css_selector('#subscribe-button > ytd-subscribe-button-renderer > tp-yt-paper-button > yt-formatted-string').click()
@@ -50,7 +49,6 @@ time.sleep(5)
 with open("urls.txt") as f:
     for url in f:
         driver.get(url)  
-
 
 driver.find_element_by_css_selector('yt-icon.style-scope.ytd-toggle-button-renderer').click()
 time.sleep(3)
