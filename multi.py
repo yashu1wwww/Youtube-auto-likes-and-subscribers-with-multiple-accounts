@@ -25,7 +25,7 @@ with open("urls.txt") as f: #change url in text file
 driver.find_element_by_css_selector('yt-icon.style-scope.ytd-toggle-button-renderer').click()
 time.sleep(3)
 driver.find_element_by_css_selector('#subscribe-button > ytd-subscribe-button-renderer > tp-yt-paper-button > yt-formatted-string').click()
-time.sleep(10)
+driver.close()
 
 
 import undetected_chromedriver as uc
@@ -53,7 +53,7 @@ with open("urls.txt") as f:
 driver.find_element_by_css_selector('yt-icon.style-scope.ytd-toggle-button-renderer').click()
 time.sleep(3)
 driver.find_element_by_css_selector('#subscribe-button > ytd-subscribe-button-renderer > tp-yt-paper-button > yt-formatted-string').click()
-time.sleep(10)
+driver.close()
 
 
 #add these script again and again  i added only two you addd how much time like and sub you want and change mail and pass how much time you want in text file url is enough for all new drivers 
