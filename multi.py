@@ -58,7 +58,7 @@ driver.close()
 
 #add these script again and again  i added only two you addd how much time like and sub you want and change mail and pass how much time you want in text file url is enough for all new drivers 
 
-#if you only want like and dont want auto subscribers means remove the 27 and 55 line which contain subscribe xpath
+#if you only want like and dont want auto subscribers means remove the 27 and 55 line which contain subscribe xpath code
 
 
  
