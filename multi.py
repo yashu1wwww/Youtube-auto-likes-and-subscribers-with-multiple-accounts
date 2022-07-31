@@ -22,6 +22,8 @@ with open("urls.txt") as f: #change url in text file
     for url in f:
         driver.get(url)
         
+ time.sleep(8) #i video dont have ads then change 8 to 3 or 4       
+driver.find_element_by_css_selector('#movie_player > div.ytp-chrome-bottom > div.ytp-chrome-controls > div.ytp-left-controls > button').click()       
 driver.find_element_by_css_selector('yt-icon.style-scope.ytd-toggle-button-renderer').click()
 time.sleep(3)
 driver.find_element_by_css_selector('#subscribe-button > ytd-subscribe-button-renderer > tp-yt-paper-button > yt-formatted-string').click()
@@ -49,7 +51,9 @@ time.sleep(5)
 with open("urls.txt") as f:
     for url in f:
         driver.get(url)  
-
+        
+time.sleep(8) #i video dont have ads then change 8 to 3 or 4         
+driver.find_element_by_css_selector('#movie_player > div.ytp-chrome-bottom > div.ytp-chrome-controls > div.ytp-left-controls > button').click()
 driver.find_element_by_css_selector('yt-icon.style-scope.ytd-toggle-button-renderer').click()
 time.sleep(3)
 driver.find_element_by_css_selector('#subscribe-button > ytd-subscribe-button-renderer > tp-yt-paper-button > yt-formatted-string').click()
@@ -58,7 +62,7 @@ driver.close()
 
 #add these script again and again  i added only two you addd how much time like and sub you want and change mail and pass how much time you want in text file url is enough for all new drivers 
 
-#if you only want like and dont want auto subscribers means remove the 27 and 55 line which contain subscribe xpath code
+#if you only want like and dont want auto subscribers means remove the 29 and 59 line which contain subscribe xpath code same
 
 
  
