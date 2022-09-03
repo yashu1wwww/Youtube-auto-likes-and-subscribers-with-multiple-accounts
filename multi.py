@@ -13,7 +13,7 @@ url = 'https://accounts.google.com/AddSession?continue=https%3A%2F%2Fwww.youtube
 driver.get(url)
 
 wait.until(EC.visibility_of_element_located((By.NAME,'identifier'))).send_keys(email)
-wait.until(EC.visibility_of_element_located((By.NAME,'password'))).send_keys(password)
+wait.until(EC.visibility_of_element_located((By.NAME,'Passwd'))).send_keys(password)
 time.sleep(5)
 
 #upto the above the codes credits goes to https://github.com/xtekky these man
@@ -45,7 +45,7 @@ url = 'https://accounts.google.com/AddSession?continue=https%3A%2F%2Fwww.youtube
 driver.get(url)
 
 wait.until(EC.visibility_of_element_located((By.NAME,'identifier'))).send_keys(email)
-wait.until(EC.visibility_of_element_located((By.NAME,'password'))).send_keys(password)
+wait.until(EC.visibility_of_element_located((By.NAME,'Passwd'))).send_keys(password)
 time.sleep(5)
 
 with open("urls.txt") as f:
