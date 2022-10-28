@@ -24,7 +24,7 @@ with open("urls.txt") as f: #change url in text file
         
  time.sleep(8) #if video dont have ads then change 8 to 3 or 4       
 driver.find_element_by_css_selector('#movie_player > div.ytp-chrome-bottom > div.ytp-chrome-controls > div.ytp-left-controls > button').click()       
-driver.find_element_by_css_selector('yt-icon.style-scope.ytd-toggle-button-renderer').click()
+driver.find_element_by_xpath('/html/body/ytd-app/div[1]/ytd-page-manager/ytd-watch-flexy/div[5]/div[1]/div/div[2]/ytd-watch-metadata/div/div[2]/div[2]/div/div/ytd-menu-renderer/div[1]/ytd-segmented-like-dislike-button-renderer/div[1]/ytd-toggle-button-renderer/yt-button-shape/button/yt-touch-feedback-shape/div/div[2]').click()
 time.sleep(3)
 driver.find_element_by_css_selector('#subscribe-button > ytd-subscribe-button-renderer > tp-yt-paper-button > yt-formatted-string').click()
 driver.close()
@@ -54,7 +54,7 @@ with open("urls.txt") as f:
         
 time.sleep(8) #if video dont have ads then change 8 to 3 or 4         
 driver.find_element_by_css_selector('#movie_player > div.ytp-chrome-bottom > div.ytp-chrome-controls > div.ytp-left-controls > button').click()
-driver.find_element_by_css_selector('yt-icon.style-scope.ytd-toggle-button-renderer').click()
+driver.find_element_by_xpath('/html/body/ytd-app/div[1]/ytd-page-manager/ytd-watch-flexy/div[5]/div[1]/div/div[2]/ytd-watch-metadata/div/div[2]/div[2]/div/div/ytd-menu-renderer/div[1]/ytd-segmented-like-dislike-button-renderer/div[1]/ytd-toggle-button-renderer/yt-button-shape/button/yt-touch-feedback-shape/div/div[2]').click()
 time.sleep(3)
 driver.find_element_by_css_selector('#subscribe-button > ytd-subscribe-button-renderer > tp-yt-paper-button > yt-formatted-string').click()
 driver.close()
@@ -63,13 +63,3 @@ driver.close()
 #add these script again and again  i added only two you addd how much time like and sub you want and change mail and pass how much time you want in text file url is enough for all new drivers 
 
 #if you only want like and dont want auto subscribers means remove the 29 and 59 line which contain subscribe xpath code same
-
-
- 
-
-
-  
-  
-
-
-           
