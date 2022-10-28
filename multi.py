@@ -14,7 +14,7 @@ driver.get(url)
 
 wait.until(EC.visibility_of_element_located((By.NAME,'identifier'))).send_keys(email)
 wait.until(EC.visibility_of_element_located((By.NAME,'Passwd'))).send_keys(password)
-time.sleep(5)
+time.sleep(2)
 
 #upto the above the codes credits goes to https://github.com/xtekky these man
 
@@ -22,11 +22,11 @@ with open("urls.txt") as f: #change url in text file
     for url in f:
         driver.get(url)
         
- time.sleep(8) #if video dont have ads then change 8 to 3 or 4       
+ time.sleep(5) #if video dont have ads then change 8 to 3 or 4       
 driver.find_element_by_css_selector('#movie_player > div.ytp-chrome-bottom > div.ytp-chrome-controls > div.ytp-left-controls > button').click()       
 driver.find_element_by_xpath('/html/body/ytd-app/div[1]/ytd-page-manager/ytd-watch-flexy/div[5]/div[1]/div/div[2]/ytd-watch-metadata/div/div[2]/div[2]/div/div/ytd-menu-renderer/div[1]/ytd-segmented-like-dislike-button-renderer/div[1]/ytd-toggle-button-renderer/yt-button-shape/button/yt-touch-feedback-shape/div/div[2]').click()
-time.sleep(3)
-driver.find_element_by_css_selector('#subscribe-button > ytd-subscribe-button-renderer > tp-yt-paper-button > yt-formatted-string').click()
+time.sleep(2)
+driver.find_element_by_xpath('/html/body/ytd-app/div[1]/ytd-page-manager/ytd-watch-flexy/div[5]/div[1]/div/div[2]/ytd-watch-metadata/div/div[2]/div[1]/div/ytd-subscribe-button-renderer/yt-button-shape/button/yt-touch-feedback-shape/div/div[2]').click()
 driver.close()
 
 
@@ -46,17 +46,17 @@ driver.get(url)
 
 wait.until(EC.visibility_of_element_located((By.NAME,'identifier'))).send_keys(email)
 wait.until(EC.visibility_of_element_located((By.NAME,'Passwd'))).send_keys(password)
-time.sleep(5)
+time.sleep(2)
 
 with open("urls.txt") as f:
     for url in f:
         driver.get(url)  
         
-time.sleep(8) #if video dont have ads then change 8 to 3 or 4         
+time.sleep(5) #if video dont have ads then change 8 to 3 or 4         
 driver.find_element_by_css_selector('#movie_player > div.ytp-chrome-bottom > div.ytp-chrome-controls > div.ytp-left-controls > button').click()
 driver.find_element_by_xpath('/html/body/ytd-app/div[1]/ytd-page-manager/ytd-watch-flexy/div[5]/div[1]/div/div[2]/ytd-watch-metadata/div/div[2]/div[2]/div/div/ytd-menu-renderer/div[1]/ytd-segmented-like-dislike-button-renderer/div[1]/ytd-toggle-button-renderer/yt-button-shape/button/yt-touch-feedback-shape/div/div[2]').click()
-time.sleep(3)
-driver.find_element_by_css_selector('#subscribe-button > ytd-subscribe-button-renderer > tp-yt-paper-button > yt-formatted-string').click()
+time.sleep(2)
+driver.find_element_by_xpath('/html/body/ytd-app/div[1]/ytd-page-manager/ytd-watch-flexy/div[5]/div[1]/div/div[2]/ytd-watch-metadata/div/div[2]/div[1]/div/ytd-subscribe-button-renderer/yt-button-shape/button/yt-touch-feedback-shape/div/div[2]').click()
 driver.close()
 
 
