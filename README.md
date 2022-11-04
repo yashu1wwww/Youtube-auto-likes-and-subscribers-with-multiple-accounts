@@ -1,7 +1,8 @@
 # Youtube-auto-likes-and-subscribers-with-multi-accounts
 Youtube auto likes and subscribers with multi accounts using python
 
-#Replace Email and Pass in 7 & 8 line same as second script and change url in text file which url you required if you want more accounts then copy 1 to 30 line and paste that in code in last line after 60th line of the script and change email and pass
+#Replace Email and Pass in 7 & 8 line and in 
+
 
 After download the folder extract it and open cmd and enter Python If You Find Python Version
 
