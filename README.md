@@ -5,6 +5,10 @@ Youtube auto likes and subscribers with multi accounts using python
 
 https://youtu.be/c9MAJpax5R0
 
+
+👉 YouTube Auto Like & Subscribers With Multi Accounts
+https://youtu.be/Je6lYW514Vc
+
 Replace Email and Pass in 7 & 8 line and also replace in 32 & 33 with your mails and password 
 
 note:-use accounts which dont have 2-factor authentication...
@@ -23,9 +27,6 @@ and Pip install Proxy in cmd
 After download the chromedriver(https://chromedriver.chromium.org/downloads extract these to downloaded folder)and with matches your chrome version of your pc and
 
 enter multi.py or multi in cmd or in python idle
-
-👉 YouTube Auto Like & Subscribers With Multi Accounts
-https://youtu.be/Je6lYW514Vc
 
 👉Python Install Setup=https://youtu.be/4bUOrMj88Pc
 
