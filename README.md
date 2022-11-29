@@ -9,14 +9,15 @@ https://youtu.be/c9MAJpax5R0
 👉 YouTube Auto Like & Subscribers With Multi Accounts
 https://youtu.be/Je6lYW514Vc
 
-Replace Email and Pass in 7 & 8 line and also replace in 32 & 33 with your mails and password 
+Replace Email and Pass in 7 & 8 line and also in below line script where gmail & password is asked....
 
 note:-use accounts which dont have 2-factor authentication...
 
-i added only two auto likes and sub you want more means copy line from 32 to 53 and paste in 55th line and dont forgot to remove mail and password do these tricks if want more....
+#i here added upto 1o+ auto like and sub if you want more means copy line from 216 to 237 and paste in 239line and dont forgot to replace mail and password....
+#if you only want auto like and dont want auto subscribers means remove the line
+#these where you find in the script driver.find_element_by_xpath('/html/body/ytd-app/div[1]/ytd-page-manager/ytd-watch-flexy/div[5]/div[1]/div/div[2]/ytd-watch-metadata/div/div[2]/div[1]/div/ytd-subscribe-button-renderer/yt-button-shape/button/yt-touch-feedback-shape/div/div[2]').click() which contain subscribe xpath..
  
 change url in url.txt to your required video link...
-
 
 After download the folder extract it and open cmd and enter Python If You Find Python Version
 
