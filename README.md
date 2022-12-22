@@ -29,8 +29,6 @@ After download the folder extract it and open cmd and enter Python If You Find P
 
 Then enter pip install undetected_chromedriver in cmd
 
-and Pip install Proxy in cmd
-
 After download the chromedriver(https://chromedriver.chromium.org/downloads extract these to downloaded folder)and with matches your chrome version of your pc and
 
 enter multi.py or multi in cmd or in python idle
