@@ -8,23 +8,20 @@ https://youtu.be/c9MAJpax5R0
 👉 YouTube Auto Like & Subscribers With Multi Accounts
 https://youtu.be/Je6lYW514Vc
 
-Replace Email and Pass in 7 & 8 line and also in below line script where gmail & password is asked....
+Note: Use accounts that do not have two-factor authentication.
 
-note:-use accounts which dont have 2-factor authentication...
+I have added up to 10+ auto likes and subs. If you want more, copy lines 216 to 237 and paste them in line 239. Don't forget to replace the email and password.
 
-#i here added upto 1o+ auto like and sub if you want more means copy line from 216 to 237 and paste in 239line and dont forgot to replace mail and password....
-#if you only want auto like and dont want auto subscribers means remove the line
-#these where you find in the script driver.find_element_by_xpath('/html/body/ytd-app/div[1]/ytd-page-manager/ytd-watch-flexy/div[5]/div[1]/div/div[2]/ytd-watch-metadata/div/div[2]/div[1]/div/ytd-subscribe-button-renderer/yt-button-shape/button/yt-touch-feedback-shape/div/div[2]').click() which contain subscribe xpath..
- 
-change url in url.txt to your required video link...
 
-After download the folder extract it and open cmd and enter Python If You Find Python Version
+If you only want auto likes and don't want auto subscribers, 
 
-Then enter pip install undetected_chromedriver in cmd
+remove the line containing the subscribe xpath: driver.find_element_by_xpath('/html/body/ytd-app/div[1]/ytd-page-manager/ytd-watch-flexy/div[5]/div[1]/div/div[2]/ytd-watch-metadata/div/div[2]/div[1]/div/ytd-subscribe-button-renderer/yt-button-shape/button/yt-touch-feedback-shape/div/div[2]').click()
 
-After download the chromedriver(https://chromedriver.chromium.org/downloads extract these to downloaded folder)and with matches your chrome version of your pc and
+Change the URL in url.txt to your required video link.
 
-enter multi.py or multi in cmd or in python idle
+After downloading the folder, extract it and open cmd. Enter "python" to find your Python version. Then, enter "pip install undetected_chromedriver" in the cmd.
+
+After downloading the chromedriver (https://chromedriver.chromium.org/downloads), extract it to the downloaded folder and ensure that it matches the chrome version of your PC. Finally, enter "multi.py" or "multi" in the cmd or Python idle
 
 👉Python Install Setup=https://youtu.be/4bUOrMj88Pc
 
