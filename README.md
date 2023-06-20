@@ -21,7 +21,7 @@ Change the URL in url.txt to your required video link.
 
 After downloading the folder, extract it and open cmd. Enter "python" to find your Python version. Then, enter "pip install undetected_chromedriver" in the cmd.
 
-After downloading the chromedriver (https://chromedriver.chromium.org/downloads), extract it to the downloaded folder and ensure that it matches the chrome version of your PC. Finally, enter "multi.py" or "multi" in the cmd or Python idle
+After downloading the chromedriver (https://chromedriver.chromium.org/downloads), extract it to the downloaded folder and ensure that it matches the chrome version of your PC. Finally, enter "multi.py" or double click on "multi" python file .
 
 👉Python Install Setup=https://youtu.be/4bUOrMj88Pc
 
