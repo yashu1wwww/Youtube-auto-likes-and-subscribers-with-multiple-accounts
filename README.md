@@ -5,6 +5,8 @@ Youtube auto likes and subscribers with multi accounts using python
 
 https://youtu.be/c9MAJpax5R0
 
+## replace email and password where they asked..
+
 Note: Use accounts that do not have two-factor authentication.
 
 I have added up to 10+ auto likes and sub. 
