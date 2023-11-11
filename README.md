@@ -5,11 +5,15 @@ Youtube auto likes and subscribers with multi accounts using python
 
 https://youtu.be/c9MAJpax5R0
 
-# new like code replace in the code
+# new like code replace in the code where #like code having
 
 #like
 driver.execute_script("return document.querySelector('#segmented-like-button > ytd-toggle-button-renderer > yt-button-shape > button > yt-touch-feedback-shape > div > div.yt-spec-touch-feedback-shape__fill')").click()
 
+# new subscribe code replace in the code where #subscribe code having
+
+#subscribe
+driver.execute_script('document.querySelector("#subscribe-button-shape > button > yt-touch-feedback-shape > div > div.yt-spec-touch-feedback-shape__fill").click()') #click on sub button
 
 ## replace email and password where they asked..
 
