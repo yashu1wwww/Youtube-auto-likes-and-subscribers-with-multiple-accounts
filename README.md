@@ -7,11 +7,7 @@ https://youtu.be/c9MAJpax5R0
 
 Note: Use accounts that do not have two-factor authentication.
 
-I have added up to 10+ auto likes and subs. If you want more, copy lines 216 to 237 and paste them in line 239. Don't forget to replace the email and password.
-
-If you only want auto likes and don't want auto subscribers, 
-
-remove the line containing the subscribe xpath: driver.find_element_by_xpath('/html/body/ytd-app/div[1]/ytd-page-manager/ytd-watch-flexy/div[5]/div[1]/div/div[2]/ytd-watch-metadata/div/div[2]/div[1]/div/ytd-subscribe-button-renderer/yt-button-shape/button/yt-touch-feedback-shape/div/div[2]').click()
+I have added up to 10+ auto likes and sub. 
 
 Change the URL in url.txt to your required video link.
 
