@@ -31,6 +31,11 @@ After downloading the chromedriver (https://chromedriver.chromium.org/downloads)
 
 👉Python Install Setup=https://youtu.be/4bUOrMj88Pc
 
+-----------------------------------------------------------------------------------------------------
+
+# 👉 Note:Every time YouTube updates the code, it varies. So, open the YouTube video, press 'Ctrl+Shift+C' to open the developer tools,
+then copy the 'Like' and 'subscribe' button's XPath, CSS, or JavaScript path. Replace it in the code and press 'Ctrl+H' to find and replace the same element in the code.
+
 👉Note:-
 
 👉if your selenium version is in latest version then 
