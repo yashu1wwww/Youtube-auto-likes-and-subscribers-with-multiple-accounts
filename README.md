@@ -7,22 +7,6 @@ https://github.com/yashu1wwww/100-Youtube-Auto-Likes-Using-Localhost
 
 https://github.com/yashu1wwww/100-Youtube-Auto-Subscribers-Using-Localhost
 
-👉𝐀𝐟𝐭𝐞𝐫 𝐓𝐰𝐨 𝐨𝐫 𝐦𝐨𝐫𝐞 𝐜𝐨𝐦𝐩𝐢𝐥𝐞 𝐨𝐟 𝐛𝐨𝐭𝐬 𝐖𝐚𝐭𝐜𝐡 𝐓𝐡𝐞𝐬𝐞 𝐕𝐢𝐝𝐞𝐨 𝐀𝐧𝐝 𝐂𝐨𝐧𝐧𝐞𝐜𝐭 𝐕𝐩𝐧 𝐚𝐧𝐝 𝐫𝐮𝐧
-
-https://youtu.be/c9MAJpax5R0
-
-# new like code replace in the code where #like button code having
-
-#like button
-
-driver.execute_script("return document.querySelector('#segmented-like-button > ytd-toggle-button-renderer > yt-button-shape > button > yt-touch-feedback-shape > div > div.yt-spec-touch-feedback-shape__fill')").click()
-
-# new subscribe code replace in the code where #sub button code having
-
-#sub button
-
-driver.execute_script('document.querySelector("#subscribe-button-shape > button > yt-touch-feedback-shape > div > div.yt-spec-touch-feedback-shape__fill").click()') 
-
 ## replace email and password where they asked..
 
 Note: Use accounts that do not have two-factor authentication.
@@ -40,6 +24,7 @@ After downloading the chromedriver (https://chromedriver.chromium.org/downloads)
 -----------------------------------------------------------------------------------------------------
 
 # 👉 Note:Every time YouTube updates the code, it varies. So, open the YouTube video, press 'Ctrl+Shift+C' to open the developer tools,
+
 then copy the 'Like' and 'subscribe' button's XPath, CSS, or JavaScript path. Replace it in the code and press 'Ctrl+H' to find and replace the same element in the code.
 
 👉Note:-
